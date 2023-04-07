@@ -17,7 +17,6 @@ readRenviron(".Renviron")
 source("drive_times_setup.R")
 ## Load the API key
 api_key <- Sys.getenv("MAPS_API_KEY")
-api_key
 ## Set origin and destination
 ## Change these to your own selections!
 ORIG <- "2221 University Ave SE, Minneapolis, MN"
