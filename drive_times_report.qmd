@@ -13,6 +13,7 @@ editor: visual
 #| warning: false
 
 library(googleway)
+readRenviron(".Renviron")
 source("drive_times_setup.R")
 ## Load the API key
 api_key <- Sys.getenv("MAPS_API_KEY")
