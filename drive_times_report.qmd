@@ -19,8 +19,8 @@ source("drive_times_setup.R")
 api_key <- Sys.getenv("MAPS_API_KEY")
 ## Set origin and destination
 ## Change these to your own selections!
-ORIG <- "2221 University Ave SE, Minneapolis, MN"
-DEST <- "4940 France Ave S, Minneapolis, MN"
+ORIG <- "950 Jefferson Commons Cir, St Paul, MN"
+DEST <- "526 Delaware St SE, Minneapolis, MN"
 ```
 
 ## Route Information
